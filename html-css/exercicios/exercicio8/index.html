@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas aninhadas e links externos</title>
+</head>
+<body>
+    <h1>Listas dentro de listas</h1>
+    <p>Podemos colocar listas dentro de listas, da seguinte forma:</p>
+    <ol>
+        <ul>
+            <li>Abacate</li>
+            <li>Abacaxi</li>
+            <li>Mamão</li>
+            <li>Limão</li>
+        </ul>
+    </ol>
+    <h1>Links externos</h1>
+    <p>Podemos também colocar links externos no nosso site, utilizando-se da tag a e passando o parâmetro href, da seguinte forma:</p>
+    <p>Você pode acessar o meu <a href="https://github.com/alves-ds">repositório público no Github</a></p>
+    <p>Mas, se não passarmos os parâmetros target e rel, quando clicarmos no link ele fechará o nosso site, portanto, vamos adicionar estas tags:</p>
+    <p>Você pode acessar o meu repositório público no Github sem sair desse site, <a href="https://github.com/alves-ds" target="_blank" rel="external">clicando aqui</a></p>
+    <h1>Links internos (navegar entre páginas de um mesmo site)</h1>
+    <p>Também podemos referenciar páginas que pertençam ao nosso site, para permitir uma "navegação interna", da seguinte forma:</p>
+    <p><a href="pag02.html" rel="next" target="_self">Clique aqui</a> e vá para a página 2 do site!</p>
+    <p>Você também pode acessar a nossa página de notícias, <a href="noticias/noticias.html" rel="next" target="_self">clicando aqui!</a></p>
+
+    <h1>Links para download</h1>
+    <p>Também podemos adicionar links que direcionam para o download de arquivos no nosso site, utilizando os parâmetros 'download' e 'type' junto ao a, da seguinte forma:</p>
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="arquivos_download/Prova T22 Fundamentos de Internet e Web COM130.pdf" download="Prova T22 Fundamentos de Internet e Web COM130.pdf" type="applcation/pdf">Clique aqui e baixe o arquivo em PDF</a></li>
+
+    </ul>
+</body>
+</html>
