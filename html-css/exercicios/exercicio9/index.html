@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas (que se ajustam de acordo com as dimensões do dispositivo do usuário final)</h1>
+    <p>Tente abrir essa página em diferentes dispositivos:</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem_p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem_m.jpg" type="image/jpg">
+        <img src="imagens/paisagem_g.jpg" alt="Imagem flexível grande">
+    </picture>
+
+</body>
+</html>
