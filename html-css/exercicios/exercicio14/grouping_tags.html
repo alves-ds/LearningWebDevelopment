@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow</title>
+    <style>
+        body {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #012340;
+            color: aliceblue;
+        }
+
+        header {
+
+            background-color: #0273338a;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        nav {
+
+            text-align: center;
+            background-color: #03a63c36;
+            padding: 2px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);
+
+        }
+
+        nav > a {
+
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            padding: 9px;
+            
+        }
+
+        nav > a:hover {
+
+            text-decoration: underline;
+            
+
+        }
+
+        main {
+
+            background-color: #0273338a;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        article > aside {
+
+            text-align: center;
+            background-color: #03a63c36;
+            padding: 2px;
+
+        }
+
+        footer {
+
+            background-color: #04d93934;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+       main > section > p {
+
+        text-align: center;
+
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de site utilizando grouping tags</h1>
+        <p>Neste exemplo, vamos começar a desenvolver sites mais elaborados utilizando-se de grouping tags.</p>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Assuntos do momento</h1>
+            <p>Futebol Novela Big Brother Jornal nacional</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias atuais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam incidunt exercitationem perferendis nihil eaque molestiae ipsum eligendi animi, ab ratione amet suscipit? Quasi voluptates sint reprehenderit pariatur reiciendis harum saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum non inventore, harum temporibus beatae autem quibusdam assumenda doloribus dolorum, impedit cupiditate quisquam officia ducimus totam natus minima libero. Dignissimos.</p>
+                <aside>
+                    <p>Artigo escrito por Lineu Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Douglas Alves</p>
+    </footer>
+</body>
+</html>
