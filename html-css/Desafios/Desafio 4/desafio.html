@@ -4,191 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
     <title>Site do Android</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-        @font-face {
-            font-family: 'Idroid';
-            src: url('fontes/idroid.otf') format('opentype');
-            font-weight: normal;
-            font-style: normal;
-        }
-
-        html {
-            
-            width: 100%;
-            margin: 0;
-            padding: 0;
-
-        }
-
-        body{ 
-
-            width: 100%; position: relative;
-            height: 100%;
-            background-color: #C5EBD6;
-            margin: 0;
-            padding: 0;
-
-        }
-
-        header > h1{
-
-            text-align: center;
-            color: white;
-            font-family: 'Bebas Neue';
-            font-size: 40px;
-            padding-top: 33px;
-        
-
-        }
-
-        header > p{
-
-            text-align: center;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-
-        }
-
-        header{
-
-            background-image: linear-gradient(to bottom, #2DA463, #063D1E);
-            height:220px;
-            width:100%;
-            
-        }
-
-        nav{
-
-            padding: 10px;
-
-
-        }
-
-        nav > a{
-
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-
-        }
-
-        nav > a:hover{
-
-            background-color: #2DA463;
-            border-radius: 5px;
-            color: #063D1E;
-
-        }
-
-        main{
-
-            background-color: #ffffff;
-            width: 70%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 10px;
-            height: 100%;
-
-        }
-
-        main > div{
-
-            font-family: Idroid;
-            color: #063D1E;
-
-        }
-
-        main > div > p{
-
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            color: black;
-            text-indent: 25px;
-            word-spacing: normal;
-            line-height: 1.5;
-            
-        }
-
-        main > div > section{
-
-            background-color: #83E1AD;
-            width: 90%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 100%;
-            margin-top: 30px;
-            border-top-left-radius: 17px;
-            border-top-right-radius: 17px;
-
-        }
-
-        main > div > section > h1{
-
-            background-color: #063D1E;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 10px;
-            color: white;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-top-left-radius: 17px;
-            border-top-right-radius: 17px;
-
-        }
-
-        main > div > section > p{
-
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            color: black;
-            text-indent: 25px;
-            word-spacing: normal;
-            line-height: 1.5;
-            padding: 7px;
-
-        }
-
-        .duas-colunas {
-            column-count: 2; /* Define o número de colunas */
-            column-gap: 20px; /* Espaço entre as colunas */
-            list-style-type: none; /* Remove os marcadores padrão */
-            padding: 10px; /* Remove o padding padrão */
-        }
-
-        .duas-colunas li {
-            break-inside: avoid; /* Evita que os itens sejam quebrados entre colunas */
-            padding: 5px 0; /* Espaçamento entre os itens */
-        }
-
-        main > div > section > ul{
-
-            font-family: Arial, Helvetica, sans-serif;
-            color: black;
-        
-        }
-
-        footer{
-
-            background-color: #063D1E;
-            color: white;
-            text-align: center;
-            padding: 10px;
-
-        }
-
-        footer > p > a{
-
-            color: white;
-
-        }
-
-    </style>
 </head>
 <body>
     <header>
@@ -209,11 +26,11 @@
             <h1>História do mascote do Android</h1>
             <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
             <h2>A primeira versão</h2>
-            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/">Dan Morrill</a>. Ele conta que abriu o <a href="https://inkscape.org/pt-br/">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank">Dan Morrill</a>. Ele conta que abriu o <a href="https://inkscape.org/pt-br/" target="_blank">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
             <img width="100%" src="imagens/dan-droids.png" alt="Dan droids">
             <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
             <h2>Surge um novo mascote</h2>
-            <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/android">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+            <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/android" target="_blank">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
             <img width="100%" src="imagens/irina-blok.jpg" alt="Foto da Irina">
             <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
             <img src="imagens/bugdroid.png" alt="Foto bugdroid">
@@ -240,14 +57,14 @@
                     <li>9.0 - Pie</li>
                 </ul>
                 <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
-                <p><a href="https://www.android.com/">Acesse aqui o site Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+                <p><a href="https://www.android.com/" target="_blank">Acesse aqui o site Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
                 <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.</p>
             </section>
 
         </div>
     </main>
     <footer>
-        <p>Site criado por <a href="https://github.com/alves-ds">Douglas Silva Alves</a> para o CursoemVideo.</p>
+        <p>Site criado por <a href="https://github.com/alves-ds" target="_blank">Douglas Silva Alves</a> para o CursoemVideo.</p>
     </footer>
     
 </body>
