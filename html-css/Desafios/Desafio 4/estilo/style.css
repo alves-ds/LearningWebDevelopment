@@ -50,13 +50,14 @@ header > p{
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
 
 }
 
 header{
 
     background-image: linear-gradient(to bottom, #2DA463, #063D1E);
-    height:220px;
+    height:210px;
     width:100%;
     
 }
@@ -74,6 +75,8 @@ nav > a{
     text-decoration: none;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition-duration: 0.5s;
 
 }
 
@@ -94,6 +97,7 @@ main{
     margin-right: auto;
     padding: 10px;
     height: 100%;
+    
 
 }
 
@@ -101,6 +105,13 @@ main > div{
 
     font-family: Idroid;
     color: #063D1E;
+    padding-top: 15px;
+
+}
+
+main > div> h2{
+
+    padding-top: 15px;
 
 }
 
@@ -112,6 +123,7 @@ main > div > p{
     text-indent: 25px;
     word-spacing: normal;
     line-height: 1.5;
+    padding-top: 20px;
     
 }
 
@@ -152,6 +164,13 @@ main > div > section > p{
     word-spacing: normal;
     line-height: 1.5;
     padding: 7px;
+
+}
+
+main > div img.pequena{
+
+    margin: auto;
+    display: block;
 
 }
 
